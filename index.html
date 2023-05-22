@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <!-- UIkit css -->
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- UIkit JS -->
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="uk-navbar-container uk-navbar-transparent">
+    <div class="uk-container">
+      <div uk-navbar>
+        <div class="uk-navbar-left uk-margin-small-bottom uk-margin-small-top">
+          <img src="img/logo.png" class="logo">
+          <!-- <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Logo</a> -->
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="#">Inicio</a></li>
+            <li class=""><a href="#services" uk-scroll>Servicios</a></li>
+            <li class=""><a href="#about" uk-scroll>About</a></li>
+            <li class=""><a href="#team" uk-scroll>Equipo</a></li>
+            <li class=""><a href="#contact" uk-scroll>Contáctanos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-left uk-flex-middle uk-light" style="background-image: url(img/home_integral.jpg);">
+    <div class="uk-margin-xlarge-left">
+      <h1 class="uk-h1">Estudio Jurídico</h2>
+      <p class="uk-h4 max-witdth-400">
+        Somos Integral, un equipo multidiscipinario de expertos brindando un servicio que incluye todos lo que necesitas.
+      </p>
+      <button class="uk-button uk-button-primary uk-width-1-2 uk-margin-small-bottom">Contáctanos</button>
+    </div>
+  </div>
+
+  <div id="services" class="uk-section uk-section-muted">
+    <div class="uk-container uk-text-center">
+      <div class="uk-margin-large-bottom">
+        <h2 class="uk-h2 uk-margin-small-bottom">Servicios</h2>
+        <p class="uk-h5 uk-margin-remove-top uk-margin-xlarge-right uk-margin-xlarge-left">
+          Cada uno de nuestros servicios incluye, de forma gratuita, un especialista que trabajará en conjunto contigo y nuestros abogados.
+        </p>
+      </div>
+
+      <div class="uk-child-width-1-4@m" uk-grid>
+        <div>
+          <img src="img/d_familia.png" class="service-icon">
+          <h4 class="uk-margin-small-top uk-margin-small-bottom">Derecho de Familia</h4>
+          <p class="uk-margin-remove-top">Abogado más apoyo psicológico</p>
+        </div>
+        <div>
+          <img src="img/d_civil.png" class="service-icon">
+          <h4 class="uk-margin-small-top uk-margin-small-bottom">Derecho Civil</h4>
+          <p class="uk-margin-remove-top">Abogado más asesoría de marketing y comercial.</p>
+        </div>
+        <div>
+          <img src="img/d_comercial.png" class="service-icon">
+          <h4 class="uk-margin-small-top uk-margin-small-bottom">Derecho Comercial</h4>
+          <p class="uk-margin-remove-top">Abogado más asesoría de marketing y comercial.</p>
+        </div>
+        <div>
+          <img src="img/d_laboral.png" class="service-icon">
+          <h4 class="uk-margin-small-top uk-margin-small-bottom">Derecho Laboral</h4>
+          <p class="uk-margin-remove-top">Abogado más apoyo psicológico y asesoría en bolsas de trabajo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="uk-section">
+    <div class="uk-container uk-container-small">
+      <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+        <div>
+          <h2 class="uk-h2 uk-margin-small-bottom">Conócenos</h2>
+          <p>Bienvenidos, Somos Integral. Con la experiencia trabajando en diversas áreas del derecho, nos dimos cuenta de que los problemas jurídicos no tienen solo una dimensión legal, sino que también tienen otras aristas que deben ser abordadas para brindar la mejor solución posible, por ejemplo, tal como un divorcio implica un bagaje emocional o el inicio de una empresa necesita de consejos comerciales o de conocimientos en marketing para poder explotar su potencial.</p>
+          </div>
+        <div>
+          <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="img/conocenos.jpg" uk-img>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="uk-section">
+    <div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-left uk-flex-middle" style="background-image: url(img/testimonios.jpg);">
+      <div class="uk-container">
+        <h1 class="uk-h1">Estudio jurídico</h2>
+        <p class="uk-h4">
+          Somos Integral, un equipo multidiscipinario de expertos  brindando un servicio que incluye todos lo que necesitas.
+        </p>
+      </div>
+    </div>
+  </div>
+</body> -->
+
+<div id="team" class="uk-section uk-section-muted">
+  <div class="uk-container uk-text-center">
+    <div class="uk-margin-large-bottom">
+      <h2 class="uk-h2 uk-margin-remove-bottom">Equipo</h2>
+    </div>
+
+    <div class="uk-child-width-1-5@m uk-child-width-1-2@s" uk-grid>
+      <div>
+        <img src="img/equipo1.jpg" class="team-img">
+        <h5 class="uk-margin-small-top uk-margin-small-bottom">Genaro Vera Leiva.</h5>
+        <p class="uk-text-small uk-margin-remove-top">Abogado de Universidad de Valparaíso. Especializado en materias de familia, con experiencia trabajando en juzgados de Familia y Centros de observación de medidas de protección y en el ejercicio libre de la profesión.</p>
+      </div>
+      <div>
+        <img src="img/equipo5.jpg" class="team-img">
+        <h5 class="uk-margin-small-top uk-margin-small-bottom">Camila Progaska Concha</h5>
+        <p class="uk-text-small uk-margin-remove-top">Abogada de Universidad de Viña del mar, con diplomados en Derecho de familia y derecho procesal de Familia impartidos por PUCV, con experiencia en juzgados de familia y civiles y en el ejercicio libre de la profesión.</p>
+      </div>
+      <div>
+        <img src="img/equipo4.jpg" class="team-img">
+        <h5 class="uk-margin-small-top uk-margin-small-bottom">Paulina Hidalgo Castillo</h5>
+        <p class="uk-text-small uk-margin-remove-top">Psicóloga de Universidas Adolfo Ibañez, con especialización en área clínica. Magister en psicología clínica y diplomado en psicoterapia y psicopatologia Infantil Juvenil.</p>
+      </div>
+      <div>
+        <img src="img/equipo3.jpg" class="team-img">
+        <h5 class="uk-margin-small-top uk-margin-small-bottom">Annitsa Vargas Fernández</h5>
+        <p class="uk-text-small uk-margin-remove-top">Publicista de Duoc Uc. Especialista en estrategias de comunicación y marketing.</p>
+      </div>
+      <div>
+        <img src="img/equipo2.jpg" class="team-img">
+        <h5 class="uk-margin-small-top uk-margin-small-bottom">Rodolfo Cortes Chia</h5>
+        <p class="uk-text-small uk-margin-remove-top">Trabajador social con 30 años de experiencia en Gendarmeria de Chile, con experiencia en peritajes y delegado de Libertad Vigilada.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="uk-section">
+  <div class="uk-container uk-text-center uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-margin-large-bottom">
+      <h2 class="uk-h2 uk-margin-small-bottom">Contáctanos</h2>
+      <p class="uk-h5 uk-margin-remove-top uk-margin-xlarge-right uk-margin-xlarge-left">
+        Cada uno de nuestros servicios incluye, de forma gratuita, un especialista que trabajará en conjunto contigo y nuestros abogados.
+      </p>
+    </div>
+
+    <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+      <div>
+        <button class="contact-button uk-button uk-button-secondary uk-width-1-2 uk-margin-small-bottom">Agendar</button>
+      </div>
+      <div>
+        <button class="uk-button uk-button-secondary uk-width-1-2 uk-margin-small-bottom contact-button">Contactar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="uk-section uk-section-muted">
+</div>
+
+</html>

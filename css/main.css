@@ -1,0 +1,22 @@
+.service-icon {
+  flex: none !important;
+  height: 58px !important;
+  width: 64px !important;
+  margin: auto;
+}
+
+.max-witdth-400{
+  max-width: 400px;
+}
+
+.team-img {
+  margin: auto;
+}
+
+.contact-button {
+  margin: auto;
+}
+
+h1, uk-h1, h2, uk-h2 {
+  font-family: 'Abril Fatface' !important;
+}
