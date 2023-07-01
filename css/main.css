@@ -17,6 +17,19 @@
   margin: auto;
 }
 
+
 h1, uk-h1, h2, uk-h2 {
   font-family: 'Abril Fatface' !important;
+}
+
+.bg-blue{
+  background-color: #3E6A92 !important;
+}
+
+.uk-button-primary {
+  background-color: #3E6A92 !important;
+}
+
+.color-white {
+  color: #fff !important;
 }
