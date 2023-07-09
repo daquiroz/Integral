@@ -21,6 +21,7 @@
 
 <body>
 
+
   <nav class="uk-navbar-container uk-navbar-transparent">
     <div class="uk-container">
       <div uk-navbar>
@@ -28,15 +29,29 @@
           <img src="img/logo.png" class="logo">
           <!-- <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">Logo</a> -->
         </div>
-        <div class="uk-navbar-right">
+        <div class="uk-navbar-right uk-visible@s">
           <ul class="uk-navbar-nav">
             <li class="uk-active"><a href="#">Inicio</a></li>
-            <li class=""><a href="#about" uk-scroll>About</a></li>
+            <li class=""><a href="#about" uk-scroll>Conócenos</a></li>
             <li class=""><a href="#services" uk-scroll>Servicios</a></li>
             <li class=""><a href="#team" uk-scroll>Equipo</a></li>
             <li class=""><a href="#testimony" uk-scroll>Testimonios</a></li>
             <li class=""><a href="#contact" uk-scroll>Contáctanos</a></li>
           </ul>
+        </div>
+
+        <div class="uk-navbar-right uk-hidden@s">
+          <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li class="uk-active"><a href="#">Inicio</a></li>
+              <li class=""><a href="#about" uk-scroll>Conócenos</a></li>
+              <li class=""><a href="#services" uk-scroll>Servicios</a></li>
+              <li class=""><a href="#team" uk-scroll>Equipo</a></li>
+              <li class=""><a href="#testimony" uk-scroll>Testimonios</a></li>
+              <li class=""><a href="#contact" uk-scroll>Contáctanos</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -47,10 +62,9 @@
     <div class="uk-margin-xlarge-left">
       <h1 class="uk-h1">INTEGRAL <br> Estudio Jurídico</h1>
       <p class="uk-h4 max-witdth-400">
-        Somos Integral, un equipo multidiscipinario de expertos brindando un servicio que incluye todos lo que
-        necesitas.
+        Legalidad, bienestar y crecimiento en un solo lugar
       </p>
-      <button class="uk-button uk-button-primary uk-margin-small-bottom">
+      <button class="uk-button uk-button-large uk-button-primary uk-margin-small-bottom">
         <span class="color-white" uk-icon="icon: whatsapp"></span>
         <a class="color-white" href="https://wa.me/56956248797">
           Contáctanos
@@ -64,7 +78,17 @@
       <h2 class="uk-h2 uk-margin-small-bottom ">Conócenos</h2>
       <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
         <div>
-          <p class="uk-text-justify">Bienvenidos a Integral, un estudio jurídico multidisciplinario que entiende que los problemas legales no son solo una cuestión de leyes. Nuestro equipo cuenta con profesionales en el área del derecho, psicología, trabajo social, publicidad e ingeniería comercial, los cuales se encargarán de abordar cada problema desde todos los ángulos posibles para brindar soluciones integrales y duraderas. Nos esforzamos por entender completamente las necesidades de nuestros clientes, no solo en términos legales, sino también emocionales y comerciales. Si está buscando una solución completa para su problema legal, no dude en contactarnos.</p>
+          <p class="uk-text-justify">Somos INTEGRAL, un lugar donde te ofrecemos un enfoque único y completo para resolver tus problemas legales. Nuestro
+          equipo está formado por expertos en diferentes disciplinas, como abogados, psicólogos, trabajadores sociales,
+          especialistas en marketing y asesores comerciales
+          <br>
+          Trabajamos en conjunto para brindarte soluciones personalizadas y efectivas, teniendo en cuenta no solo los aspectos
+          legales, sino también las implicaciones emocionales y comerciales de tu situación.
+          <br>
+          Confía en nosotros para ofrecerte un servicio integral utilizando todas las disciplinas que tenemos a nuestro alcance.
+          Contáctate al número telefónico 9-56248797 o al correo contactointegraljuridico@gmail.com para agendar una asesoría
+          gratuita.
+        </p>
         </div>
         <div>
           <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
@@ -93,7 +117,7 @@
             Cuidado personal.<br>
             Divorcio.<br>
             Vulneración de derechos.<br>
-            Ley de identidad de Género.<br>
+            Alimentos.<br>
             <span class="uk-text-bold">Sesión de apoyo psicológico Gratis.</span>
           </p>
         </div>
@@ -105,6 +129,7 @@
             Herencias.<br>
             Asuntos voluntarios.<br>
             Propiedades.<br>
+            Cambio de nombre.<br>
             <span class="uk-text-bold">Asesoría comercial incluida.</span>
           </p>
         </div>
@@ -116,6 +141,7 @@
             Modificación de rubro.<br>
             Transformación a sociedad.<br>
             Patente de marca.<br>
+            Redacción de escritura.<br>
             <span class="uk-text-bold">Asesoría de Marketing incluida.</span>
           </p>
         </div>
@@ -127,6 +153,7 @@
             Despido injustificado.<br>
             Nulidad del despido.<br>
             Auto despido.<br>
+            Asesoría a empresas.<br>
             <span class="uk-text-bold">Sesión de apoyo psicológico gratis.</span>
           </p>
         </div>
@@ -157,37 +184,87 @@
         <div>
           <img src="img/genaro.jpg" class="team-img">
           <h5 class="uk-margin-small-top uk-margin-small-bottom">Genaro Vera Leiva.</h5>
-          <p class="uk-text-small uk-margin-remove-top">Abogado de Universidad de Valparaíso. Especializado en materias de familia y Laboral con experiencia trabajando en
+          <p class="uk-text-small uk-margin-remove-top uk-text-justify">Abogado de Universidad de Valparaíso. Especializado en materias de familia y Laboral con experiencia trabajando en
           juzgados de Familia y Centros de Observación de Medidas de Protección de la Ilustrísima Corte de Apelaciones de
           Valparaíso y en litigación de manera independiente.</p>
         </div>
         <div>
           <img src="img/camila.jpg" class="team-img">
           <h5 class="uk-margin-small-top uk-margin-small-bottom">Camila Progaska Concha</h5>
-          <p class="uk-text-small uk-margin-remove-top">Abogada de Universidad de Viña del Mar, especializada en Derecho de Familia y Derecho Civil, con diplomados en Derecho Procesal de Familia y Derecho de Familia impartidos por Universidad Católica de Valparaíso y con experiencia trabajando en diversos Juzgados Civiles como Proveedora y actuaria y en litigación de manera independiente.</p>
+          <p class="uk-text-small uk-margin-remove-top uk-text-justify">Abogada de Universidad de Viña del Mar, especializada en Derecho de Familia y Derecho Civil, con diplomados en Derecho Procesal de Familia y Derecho de Familia impartidos por Universidad Católica de Valparaíso y con experiencia trabajando en diversos Juzgados Civiles como Proveedora y actuaria y en litigación de manera independiente.</p>
         </div>
         <div>
           <img src="img/paulina.jpg" class="team-img">
           <h5 class="uk-margin-small-top uk-margin-small-bottom">Paulina Hidalgo Castillo</h5>
-          <p class="uk-text-small uk-margin-remove-top">Psicóloga de Universidad de Adolfo Ibáñez.</p>
+          <p class="uk-text-small uk-margin-remove-top uk-text-justify">Psicóloga de Universidad Adolfo Ibáñez, con especialización en área clínica. Magister en Psicología Clínica y diplomado
+          en Psicopatología Infantil Juvenil.</p>
         </div>
         <div>
           <img src="img/anitsa.jpg" class="team-img">
           <h5 class="uk-margin-small-top uk-margin-small-bottom">Annitsa Vargas Fernández</h5>
-          <p class="uk-text-small uk-margin-remove-top">Publicista con experiencia en asesorías de marketing</p>
+          <p class="uk-text-small uk-margin-remove-top uk-text-justify">Publicista de Duoc Uc especializada en Asesoría Estratégica de Marketing y Branding.</p>
         </div>
         <div>
           <img src="img/rodolfo.jpg" class="team-img">
           <h5 class="uk-margin-small-top uk-margin-small-bottom">Rodolfo Cortes Chia</h5>
-          <p class="uk-text-small uk-margin-remove-top">Trabajador Social, con experiencia de 30 años trabajando en Gendarmería de Chile.</p>
+          <p class="uk-text-small uk-margin-remove-top uk-text-justify">Trabajador social con 30 años de experiencia en Gendarmería de Chile, con experiencia en peritajes y delegado de
+          Libertad Vigilada.</p>
         </div>
       </div>
     </div>
   </div>
 
-
   <div class="uk-section uk-light" id="testimony">
-    <div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-left uk-flex-middle" style="background-image: url(img/testimonios.jpg);">
+    <div class="uk-hidden@s">
+      <div class="uk-background-cover uk-panel uk-flex uk-flex-left uk-flex-middle"
+        style="background-image: url(img/testimonios.jpg);">
+        <div class="uk-container uk-padding-large">
+          <h1 class="uk-h1 uk-text-center uk-padding-medium-bottom">Reseñas</h2>
+
+          <div>
+            <p class="uk-margin-remove uk-padding-large uk-padding-remove-bottom">
+              "Mi experiencia con Integral ha sido muy buena. Desde el primer momento, su equipo mostró un genuino interés en
+              comprender mi caso y ofrecer soluciones personalizadas. Su enfoque multidisciplinario me brindó una perspectiva
+              completa y me ayudó a resolver mi problema legal de manera efectiva"</p>
+            <br>
+            <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Sofía Martinez F</p>
+          </div>
+          <div>
+            <p class="uk-margin-remove uk-padding-large uk-padding-remove-bottom">
+              "No puedo estar más satisfecho con los servicios de Integral. En un momento difícil de mi vida, su equipo no solo me
+              brindó un asesoramiento legal sólido, sino que también tuvieron en cuenta mis necesidades emocionales y comerciales.
+              Su
+              enfoque integral marcó la diferencia y me permitió superar los obstáculos legales con confianza. Recomiendo a Integral
+              por su profesionalismo y atención personalizada"</p>
+            <br>
+            <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Juan Piñeiro D
+            </p>
+          </div>
+          <div>
+            <p class="uk-margin-remove uk-padding-large uk-padding-remove-bottom">
+              "Contratar a Integral fue la mejor decisión que pude tomar. Su equipo no solo se enfocó en los aspectos legales de mi
+              caso, sino que también comprendieron la importancia de mi bienestar emocional. Su apoyo psicológico fue invaluable
+              durante el proceso legal. Recomiendo a Integral a todos aquellos que necesiten un equipo legal que se preocupe por su
+              bienestar integral"</p>
+            <br>
+            <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">María Roman E.
+            </p>
+          </div>
+          <div>
+            <p class="uk-margin-remove uk-padding-large uk-padding-remove-bottom">
+              "Quiero expresar mi gratitud hacia el equipo de Integral por su dedicación y profesionalismo. En cada etapa de mi
+              proceso legal, me sentí respaldado y escuchado. Su enfoque multidisciplinario me dio la confianza de que estaban
+              abordando todos los aspectos relevantes de mi situación. Recomiendo a Integral a cualquiera que busque un servicio
+              legal
+              completo y de calidad"</p>
+            <br>
+            <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Andrés Garrido
+              A.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-visible@s uk-background-cover uk-height-large uk-panel uk-flex uk-flex-left uk-flex-middle" style="background-image: url(img/testimonios.jpg);">
       <div class="uk-container">
         <h1 class="uk-h1 uk-text-center uk-padding-medium-bottom">Reseñas</h2>
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
@@ -198,7 +275,7 @@
                   <p class="uk-margin-remove uk-padding-large uk-padding-remove-bottom">
                     "Mi experiencia con Integral ha sido muy buena. Desde el primer momento, su equipo mostró un genuino interés en comprender mi caso y ofrecer soluciones personalizadas. Su enfoque multidisciplinario me brindó una perspectiva completa y me ayudó a resolver mi problema legal de manera efectiva"</p>
                   <br>
-                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Sofía Martinez F</h3>
+                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Sofía Martinez F</p>
                 </div>
               </div>
             </li>
@@ -211,7 +288,7 @@
                     enfoque integral marcó la diferencia y me permitió superar los obstáculos legales con confianza. Recomiendo a Integral
                     por su profesionalismo y atención personalizada"</p>
                   <br>
-                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Juan Piñeiro D</h3>
+                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Juan Piñeiro D</p>
                 </div>
               </div>
             </li>
@@ -224,7 +301,7 @@
                     durante el proceso legal. Recomiendo a Integral a todos aquellos que necesiten un equipo legal que se preocupe por su
                     bienestar integral"</p>
                   <br>
-                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">María Roman E.</h3>
+                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">María Roman E.</p>
                 </div>
               </div>
             </li>
@@ -237,7 +314,7 @@
                     abordando todos los aspectos relevantes de mi situación. Recomiendo a Integral a cualquiera que busque un servicio legal
                     completo y de calidad"</p>
                   <br>
-                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Andrés Garrido A.</h3>
+                  <p class="uk-margin-remove uk-text-bold uk-padding-large uk-padding-remove-bottom uk-padding-remove-top">Andrés Garrido A.</p>
                 </div>
               </div>
             </li>
@@ -254,7 +331,7 @@
   <div id="contact" class="uk-section">
     <div class="uk-container uk-text-center uk-margin-large-top uk-margin-large-bottom">
       <div class="uk-margin-large-bottom">
-        <h2 class="uk-h2 uk-margin-small-bottom">Contáctanos</h2>
+        <h2 class="uk-h1 uk-margin-small-bottom">Contáctanos</h2>
         <p class="uk-h5 uk-margin-remove-top uk-margin-xlarge-right uk-margin-xlarge-left">
           Cada uno de nuestros servicios incluye, de forma gratuita, <br>un especialista que trabajará en conjunto contigo y nuestros abogados.
         </p>
