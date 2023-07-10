@@ -33,3 +33,7 @@ h1, uk-h1, h2, uk-h2 {
 .color-white {
   color: #fff !important;
 }
+
+.header-subtitle {
+  text-shadow: 1px 1px 1px #626262;
+}
